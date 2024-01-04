@@ -1,0 +1,8 @@
+.venv
+.env
+*/output
+*/src/__pycache__
+*/output
+*/input/*.feather
+*/input/*.csv
+job-titles/input/prompts

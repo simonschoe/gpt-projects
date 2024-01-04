@@ -1,0 +1,21 @@
+Here is a news article:
+
+<article>
+Title: {title}\n
+Body: {body}
+</article>
+
+
+Answer the following two question step-by-step:
+Step 1: Does the news article discuss a stock price-relevant event?
+Step 2: If so, does this event directly relate to one of the following companies: {common_names}?
+
+
+The output should be formatted as follows:
+Step 1:
+- Short explanation: <string>
+- Answer: <yes/no/don't know>
+Step 2:
+- Short explanation: <string>
+- Answer: <yes/no/don't know>
+

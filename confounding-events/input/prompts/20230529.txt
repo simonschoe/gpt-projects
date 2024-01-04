@@ -1,0 +1,25 @@
+Here is a news article:
+
+<article>
+Title: {title}\n
+Body: {body}
+</article>
+
+
+Answer the following two question and think step-by-step:
+Step 1: Does the news article discuss a price-relevant event?
+Step 2: Does this event directly affect {coname}?
+Step 3: If not, does this event indirectly affect {coname}, e.g., through a subsidiary or holding company?
+
+
+The output should be formatted as follows:
+Step 1:
+- Short explanation: <string>
+- Answer: <yes/no/don't know>
+Step 2:
+- Short explanation: <string>
+- Answer: <yes/no/don't know>
+Step 3:
+- Short explanation: <string>
+- Answer: <yes/no/don't know>
+

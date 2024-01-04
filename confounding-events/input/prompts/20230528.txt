@@ -1,0 +1,20 @@
+Here is a news article:
+
+<article>
+Title: {title}\n
+Body: {body}
+</article>
+
+
+Answer the following questions by reasoning step-by-step:
+Q1. Is the news article about {coname}, a predecessor of {coname}, or a subsidiary of {coname}?
+Q2. Would a shophisticated investor act on the information in the article and buy or sell the stock of {coname}?
+
+
+Structure your answer as follows:
+
+Q1. Concise explanation
+Q1. Answer: <yes/no/don't know>
+
+Q2. Concise explanation
+Q2. Answer: <yes/no/don't know>

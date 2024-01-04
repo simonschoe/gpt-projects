@@ -1,0 +1,29 @@
+Here is a news article:
+
+<article>
+Title: {title}\n
+Body: {body}
+</article>
+
+
+Answer the following two questions step-by-step:
+
+Step 1: Does the news article discuss a stock price-relevant event related to {common_names}? Provide a brief explanation.
+
+Step 2: If yes, which of the following event type(s) apply (select one or several)? If no, return None.
+a. change in the top management team
+b. substantial changes in the workforce
+c. changes in production capacities
+d. shifts in the firm's strategy
+e. capital increases, share buyback programs, or repayment of debt
+f. dividend announcements
+g. M&A activities, divestment, or joint venture agreement
+h. changes in security analyst forecasts or recommendations
+i. credit rating change
+j. legal fines, lawsuit, or regulatory changes
+k. announcement of financial results
+l. product recall announcements
+m. other
+
+
+The output should be formatted as JSON with keys "explanation" (str) and "event_type" (list of str).

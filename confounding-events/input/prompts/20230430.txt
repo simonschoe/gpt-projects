@@ -1,0 +1,17 @@
+Perform the following actions step-by-step:
+Step 1 - Summarize the key information in the news article delimited by triple dashes. Use three sentences at most.
+Step 2 - Is the article about {coname}, a predecessor of {coname}, or a subsidiary of {coname}?
+Step 3 - Does the article contain a major event or information that likely has an immediate impact on the stock price of {coname}?
+
+
+Structure your answer using the following format:
+Step 1: <list of bullet points>
+Step 2: <yes/no as boolean value>
+Step 3: <yes/no as boolean value>
+
+ 
+News article:
+---
+Title: {title}\n
+Body: {body}
+---

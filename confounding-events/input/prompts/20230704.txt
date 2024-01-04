@@ -1,0 +1,26 @@
+Here is a short summary of a news article that discusses a stock price-relevant event:
+
+<summary>
+{body}
+</summary>
+
+
+Which of the following event(s) applies to the summary (select one or several)?
+a. change in the top management team
+b. substantial changes in the workforce
+c. changes in production capacities
+d. shifts in the firm's strategy
+e. capital increases, share buyback programs, or repayment of debt
+f. dividend announcements
+g. M&A activities, divestment, or joint venture agreement
+h. changes in security analyst forecasts or recommendations
+i. credit rating change
+j. legal fines, lawsuit, or regulatory changes
+k. announcement of financial results
+l. product recall announcements
+m. other
+
+
+Please return the applicable event code(s).
+If you select "m. other" please state the relevant event.
+

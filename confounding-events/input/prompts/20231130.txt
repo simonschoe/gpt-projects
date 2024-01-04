@@ -1,0 +1,30 @@
+Here is a news article:
+
+<article>
+Title: {title}\n
+Date: {publication_datetime}\n
+Body: {body}
+</article>
+
+
+Answer the following two questions step-by-step:
+
+Step 1: Does the news article discuss a NEW event that has a SIGNIFICANT SHORT-TERM effect on the stock price with HIGH PROBABILITY and is DIRECTLY related to {common_names}? Provide a brief explanation and final answer (yes/no).
+
+Step 2: If yes, which of the following event type(s) apply (select one or several)? If no, return None.
+a. change in the main management board
+b. substantial changes in the workforce
+c. changes in production capacities
+d. shifts in the firm's strategy
+e. capital increases, share buyback programs, or repayment of debt
+f. dividend announcements
+g. M&A activities, divestment, or joint venture agreement (not merely talks or rumors)
+h. changes in security analyst forecasts or recommendations
+i. credit rating change
+j. legal fines, lawsuit, or regulatory changes
+k. announcement of financial results
+l. product recall announcements
+m. other
+
+
+The output should be formatted as JSON with keys "explanation" (str), "final_answer" (str), and "event_type" (list of str).

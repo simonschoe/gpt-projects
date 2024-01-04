@@ -1,0 +1,16 @@
+Here is a news article:
+
+<article>
+Title: {title}\n
+Body: {body}
+</article>
+
+Perform the following actions step-by-step:
+Step 1: Summarize the key information in the news article. Use three sentences at most.
+Step 2: Is the article about {coname}, a predecessor of {coname}, or a subsidiary of {coname}?
+Step 3: Would a shophisticated investor act on the information in the article and buy or sell the stock of {coname}?
+
+Structure your answer using the following format:
+Step 1: <list of bullet points>
+Step 2: <yes/no/don't know>
+Step 3: <yes/no/don't know>
